@@ -1,5 +1,10 @@
 h3, h5 {
   color: powderblue;
   font-size: 20px;
-  
+}
+
+p {
+  font-family: serif;
+  color: lightblue;
+  background: blue;
 }
