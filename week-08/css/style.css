@@ -4,8 +4,8 @@
   text-align: center;
 }
 
-h5 p {
-  font-size: 25px;
+p.author {
+  text-size: 15px;
 }
 
 body {
