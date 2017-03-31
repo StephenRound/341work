@@ -1,4 +1,4 @@
-.heading {
+h2.heading, h5.heading {
   color: #3d4281;
   font-size: 35px;
   text-align: center;
@@ -16,4 +16,5 @@ body {
 p {
   font-family: sans-serif;
   color: darkblue;
+  text-align: justify;
 }
