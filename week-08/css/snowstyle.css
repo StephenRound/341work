@@ -1,12 +1,13 @@
-<style>
 h3, h5 {
   color: powderblue;
   font-size: 20px;
 }
 
-p {
-  font-family: serif;
-  color: lightblue;
-  background: blue;
+body {
+  background-color: #e1edf9;
 }
-</style>
+
+p {
+  font-family: sans-serif;
+  color: darkblue;
+}
