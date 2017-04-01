@@ -16,7 +16,7 @@ p {
 
 p.first-p {
   border-top-style: dotted;
-  padding-top: 5pxs;
+  padding-top: 5px;
   border-width: 2px;
   border-color: #3d4281;
 }
