@@ -1,12 +1,12 @@
 .heading {
   color: #3d4281;
-  font-size: 45px;
+  font-size: 60%;
   text-align: center;
-  font-family: monospace;
+  font-family: serif;
 }
 
 #author {
-  font-size: 20px;
+  font-size: 40%;
 }
 
 body {
