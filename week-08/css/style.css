@@ -16,10 +16,12 @@ p {
 
 p.first-p {
   border-top-style: dotted;
+  border-width: 2px;
   border-color: #3d4281;
 }
 
 p.first-transition {
   border-bottom-style: dotted;
+  border-width: 2px;
   border-color: #3d4281;
 }
