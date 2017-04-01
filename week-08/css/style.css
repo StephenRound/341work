@@ -13,3 +13,13 @@ p {
   color: darkblue;
   text-align: justify;
 }
+
+p.first-p {
+  border-top-style: dotted;
+  border-color: #3d4281;
+}
+
+p.first-transition {
+  border-bottom-style: dotted;
+  border-color: #3d4281;
+}
