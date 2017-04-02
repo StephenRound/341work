@@ -7,8 +7,9 @@
 
 body {
   background-color: #e1edf9;
-  background-image: url("img/snowflakes.png");
+  background-image: url("snowflakes.png");
   min-height: 400px;
+  min-width: 100px;
   background-attachment: fixed;
   background-position: right top;
   background-repeat: no-repeat;
