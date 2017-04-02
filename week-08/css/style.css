@@ -8,8 +8,9 @@
 body {
   background-color: #e1edf9;
   background-image: url("img/snowflake.png");
-  background-position: right top;
+  min-height: 400px;
   background-attachment: fixed;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
