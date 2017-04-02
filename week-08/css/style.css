@@ -20,6 +20,7 @@ p {
   color: darkblue;
   text-align: justify;
   margin: 20px 15% 0px;
+  text-indent: 1em;
 }
 
 p.first-p {
@@ -44,4 +45,5 @@ p.end-p {
   margin-bottom: 25px;
   border-width: 2px;
   border-color: #3d4281;
+  font-style: oblique;
 }
