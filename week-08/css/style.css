@@ -13,6 +13,7 @@ body {
   background-attachment: fixed;
   background-position: right top;
   background-repeat: no-repeat;
+  margin-right: 2em;
 }
 
 p {
