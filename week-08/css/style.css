@@ -5,6 +5,10 @@
   margin: 35px 0px 10px;
 }
 
+h2 {
+  font-size: 60pt;
+}
+
 body {
   background-color: #e1edf9;
   background-image: url("snowflakes.png");
