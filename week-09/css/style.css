@@ -79,3 +79,10 @@ li.drop-menu {
 img {
   background-attachment: scroll;
 }
+
+p {
+  font-family: sans-serif;
+  font-size: 16pt;
+  background-color: inherit;
+  margin: 10px 10%;
+}
