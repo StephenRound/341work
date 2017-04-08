@@ -7,7 +7,7 @@ header {
   height: 3em;
 }
 
-#menu {
+.menu {
   display: inline-block;
   margin: 0;
   min-width: 8em;
@@ -16,34 +16,34 @@ header {
   padding: 0.5em 0;
 }
 
-#menu a {
+.menu a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-#menu:hover{
+.menu:hover{
   background-color: rgb(167, 133, 139);
 }
 
-#drop-menu {
+.drop-menu {
   display: inline-block;
 }
 
-#drop-content {
+.drop-content {
   display: none;
   position: absolute;
-  border: 1px solid #000;
+  border: 1px solid .000;
   margin: 0;
   margin-top: 0.5em;
   background-color: rgb(235, 218, 218);
   z-index: 1;
 }
 
-#drop-menu:hover #drop-content {
+.drop-menu:hover .drop-content {
   display: block;
 }
 
-#dropped {
+.dropped {
   display: block;
   text-align: left;
   margin: 0;
@@ -51,7 +51,7 @@ header {
   min-width: 7em;
 }
 
-#dropped:hover, #dropped:hover a {
+.dropped:hover, .dropped:hover a {
   color: rgb(255, 70, 74);
   background-color: rgb(234, 170, 172);
 }
