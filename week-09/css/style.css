@@ -3,8 +3,14 @@ header {
   font-family: sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  margin-top: 150px;
+  margin: 0px;
   height: 3em;
+}
+
+.logo {
+  position: top;
+  z-index: 1;
+  margin: 10px 0 30px;
 }
 
 .menu {
