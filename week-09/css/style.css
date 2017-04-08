@@ -52,6 +52,14 @@ li.drop-menu {
   z-index: 1;
 }
 
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
 .drop-menu:hover .drop-content {
   display: block;
 }
