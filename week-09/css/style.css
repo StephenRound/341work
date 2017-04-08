@@ -17,7 +17,6 @@ ul {
   list-style-type: none;
   margin: 0;
   min-width: 8em;
-  float: left;
   background-color: rgb(224, 205, 210);
   padding: 0.5em 0;
 }
