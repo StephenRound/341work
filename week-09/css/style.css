@@ -22,6 +22,10 @@ ul {
   padding: 0.5em 0;
 }
 
+li {
+  float: none;
+}
+
 li a, .dropbutton {
   display: block;
   color: rgb(255, 255, 255);
