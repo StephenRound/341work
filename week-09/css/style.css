@@ -16,7 +16,7 @@ header {
 ul {
   list-style-type: none;
   margin: 0 40px;
-  min-width: 8em;
+  min-width: 200px;
   overflow: hidden;
   background-color: rgb(224, 205, 210);
   padding: 0.5em 0;
@@ -27,6 +27,7 @@ li {
 }
 
 li a, .dropbutton {
+  display: block;
   color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 0 40px 0;
@@ -34,6 +35,7 @@ li a, .dropbutton {
 
 li a:hover, .drop-menu:hover .dropbutton{
   background-color: rgb(167, 133, 139);
+  color: black;
 }
 
 li.drop-menu {
