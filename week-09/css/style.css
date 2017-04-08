@@ -10,7 +10,7 @@ header {
 .logo {
   position: top;
   z-index: 1;
-  margin: 10px 0 30px;
+  margin: 10px 0 50px;
 }
 
 .menu {
@@ -60,4 +60,8 @@ header {
 .dropped:hover, .dropped:hover a {
   color: rgb(255, 70, 74);
   background-color: rgb(234, 170, 172);
+}
+
+img {
+  background-attachment: scroll;
 }
