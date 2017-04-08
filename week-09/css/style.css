@@ -13,25 +13,25 @@ header {
   margin: 10px 0 50px;
 }
 
-.menu {
-  display: inline-block;
+ul {
+  list-style-type: none;
   margin: 0;
   min-width: 8em;
-  text-align: center;
+  float: left;
   background-color: rgb(224, 205, 210);
   padding: 0.5em 0;
 }
 
-.menu a {
+li a, .dropbutton {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-.menu:hover{
+li a:hover, .drop-menu:hover .dropbutton{
   background-color: rgb(167, 133, 139);
 }
 
-.drop-menu {
+li.drop-menu {
   display: inline-block;
 }
 
