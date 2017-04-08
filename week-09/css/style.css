@@ -22,15 +22,12 @@ ul {
   padding: 0.5em 0;
 }
 
-li {
-  float: left;
-}
-
 li a, .dropbutton {
   display: block;
   color: rgb(255, 255, 255);
   text-decoration: none;
   margin: auto;
+  padding: 0 40px 0;
 }
 
 li a:hover, .drop-menu:hover .dropbutton{
