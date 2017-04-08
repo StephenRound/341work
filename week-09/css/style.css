@@ -15,7 +15,7 @@ header {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 40px;
   min-width: 8em;
   overflow: hidden;
   background-color: rgb(224, 205, 210);
@@ -24,6 +24,7 @@ ul {
 
 li {
   float: left;
+  margin: 0 40px 0;
 }
 
 li a, .dropbutton {
