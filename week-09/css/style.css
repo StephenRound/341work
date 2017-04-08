@@ -30,7 +30,7 @@ li a, .dropbutton {
   display: block;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin: 0 40px 0;
+  margin: auto;
 }
 
 li a:hover, .drop-menu:hover .dropbutton{
