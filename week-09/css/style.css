@@ -83,6 +83,10 @@ img {
 p.body {
   font-family: sans-serif;
   font-size: 16pt;
-  background-color: inherit;
-  margin: 50px 10% 0px;
+}
+
+div.content {
+  margin: auto;
+  padding: 10px 10%;
+  float: left;
 }
