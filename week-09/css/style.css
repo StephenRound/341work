@@ -90,3 +90,7 @@ div.content {
   padding: 10px 10%;
   float: left;
 }
+
+.active {
+  background-color: rgb(234, 170, 172);
+}
