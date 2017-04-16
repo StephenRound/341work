@@ -103,42 +103,27 @@ div.content {
   font-size: 16pt;
 }
 
-.pink {
-  background-color: lightpink;
-  width: 67%;
-}
-
 .red{
   background-color: darkred;
   width: 33%;
 }
 
-#one {
-  order: 1;
+.pink {
+  background-color: lightpink;
+  width: 67%;
 }
 
-#two {
-  order: 3;
-}
-
-#three {
-  order: 4;
-}
-
-#four {
-  order: 2;
-}
 
 @media (min-width: 1000px) {
-  .pink {
+  .red {
     order: 1;
+    width: 33%;
+  }
+  .pink {
+    order: 2;
     width: 67%;
   }
 
-  .red {
-    order: 2;
-    width: 33%;
-  }
 }
 
 @media (min-width: 550px) {

@@ -11,7 +11,7 @@ I took the top part of last week's assignment to create this week's page, so tha
 
 ##### Sketches
 
-I might have just misinterpreted how to make these site sketches with flexboxes. At first I did literal sketches of a website for each type of device it would be viewed on, but now I've made simple mspaint sketches with actual flexboxes shown.
+I might have just misinterpreted how to make these site sketches with flexboxes. At first I did literal chicken-scratch sketches of a website for each type of device it would be viewed on, but now I've made simple mspaint sketches with actual flexboxes shown.
 
 ![Mobile](rmimg/mobile.png)
 
