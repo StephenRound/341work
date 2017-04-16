@@ -10,5 +10,14 @@ This page, being meta, will describe RWD while also using it. The first element 
 I might have just misinterpreted how to make these site sketches with flexboxes. At first I did literal sketches of a website for each type of device it would be viewed on, but now I've made simple mspaint sketches with actual flexboxes shown.
 
 ![Mobile](rmimg/mobile.png)
+
+
 ![Tablet](rmimg/tablet.png)
+
+
 ![Web/PC](rmimg/web.png)
+
+
+##### Playing with flexboxes
+
+I've been struggling with flexboxes this week. I downloaded the example from the site, but playing around with it broke it. It didn't work after a while, even when I repaired the code back to its former state. I thought I had it working on the site proper, but I realized the text was automatically scaling with the window on my week 9 site too. [Here's](http://stephenround.github.io/341work/week-10-test/) the test site where I was playing with flexes.

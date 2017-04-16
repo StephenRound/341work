@@ -107,12 +107,14 @@ div.content {
   font-size: 16pt;
 }
 
-#pink {
+.pink {
   background-color: lightpink;
+  width: 80%;
 }
 
-#red{
+.red{
   background-color: darkred;
+  width: 20%;
 }
 
 #one {
