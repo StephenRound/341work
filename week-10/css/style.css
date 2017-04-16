@@ -80,11 +80,6 @@ img {
   background-attachment: scroll;
 }
 
-p.body {
-  font-family: sans-serif;
-  font-size: 16pt;
-}
-
 div.content {
   margin: auto;
   padding: 10px 10%;
@@ -103,6 +98,8 @@ div.content {
   justify-content: center;
   align-items: flex-start;
   align-content: center;
+  font-family: sans-serif;
+  font-size: 16pt;
 }
 
 #one {
