@@ -94,7 +94,7 @@ div.content {
   background-color: rgb(234, 170, 172);
 }
 
-div.container {
+.container {
   min-width: 80%;
   min-height: 50%;
   display: flex;
@@ -103,7 +103,14 @@ div.container {
   justify-content: center;
   font-family: sans-serif;
   font-size: 16pt;
+}
+
+#pink {
   background-color: lightpink;
+}
+
+#red{
+  background-color: darkred;
 }
 
 #one {
@@ -118,5 +125,10 @@ div.container {
 
 #three {
   order: 3;
+  align-self: flex-end;
+}
+
+#four {
+  order: 4;
   align-self: flex-end;
 }
