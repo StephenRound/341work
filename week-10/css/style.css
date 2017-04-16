@@ -16,7 +16,7 @@ header {
 ul {
   list-style-type: none;
   margin: 0 40px;
-  min-width: 90%;
+  width: 90%;
   overflow: hidden;
   background-color: rgb(224, 205, 210);
   padding: 0.5em 0;
