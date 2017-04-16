@@ -119,22 +119,18 @@ div.content {
 
 #one {
   order: 1;
-  align-self: stretch;
 }
 
 #two {
   order: 2;
-  align-self: center;
 }
 
 #three {
   order: 3;
-  align-self: flex-end;
 }
 
 #four {
   order: 4;
-  align-self: flex-end;
 }
 
 @media (min-width: 1000px) {
