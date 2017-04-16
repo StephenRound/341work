@@ -1,36 +1,59 @@
 .container {
-  width: 200px;
-  height: 100px;
-  display: flex;
-  flex: auto;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  font-family: sans-serif;
-  font-size: 16pt;
-  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#one {
-  order: 1;
-  align-self: stretch;
-  background-color: red;
+.flex {
+    flex: auto;
+    height: 100px;
+    min-width: 250px;
+    text-align: center;
 }
 
-#two {
-  order: 2;
-  align-self: center;
-  background-color: blue;
+.red {
+    background-color: #ff0000;
+    order: 1;
+}
+.blue {
+    background-color: #0057ff;
+    order: 2;
+}
+.green {
+    background-color: #00ff03;
+    order: 3;
+}
+.yellow {
+    background-color: #fffc00;
+    order: 4;
 }
 
-#three {
-  order: 3;
-  align-self: flex-end;
-  background-color: green;
-}
 
-#four {
-  order: 4;
-  align-self: flex-end;
-  background-color: orange;
+@media (min-width: 550px) {
+    .red {
+        order: 2;
+    }
+    .blue {
+        order: 3;
+    }
+    .green {
+        order: 4;
+    }
+    .yellow {
+        order: 1;
+    }
+  }
+
+@media (min-width: 700px) {
+    .red {
+        order: 4;
+    }
+    .blue {
+        order: 1;
+    }
+    .green {
+        order: 3;
+    }
+    .yellow {
+        order: 2;
+    }
 }
