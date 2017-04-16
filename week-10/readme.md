@@ -1,5 +1,6 @@
 #### Week 10
 
+###### I can't seem to get my flexes to work the way they should. I've been playing around with this for hours upon hours, with no avail.
 ---
 
 ##### What is responsive web design?
