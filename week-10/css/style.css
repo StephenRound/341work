@@ -99,9 +99,9 @@ div.content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 70%;
+  min-width: 50%;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   align-content: center;
 }
 
