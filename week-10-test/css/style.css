@@ -3,7 +3,7 @@
   height: 100px;
   display: flex;
   flex: auto;
-  flex-direction: column;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-around;
   font-family: sans-serif;
