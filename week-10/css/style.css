@@ -91,10 +91,10 @@ div.content {
 }
 
 .container {
+  margin: 20px 20%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 40%;
   justify-content: center;
   align-items: flex-start;
   align-content: center;
