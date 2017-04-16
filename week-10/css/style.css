@@ -138,8 +138,19 @@ div.content {
 }
 
 @media (min-width: 1000px) {
-  .pink {
+  #one {
     order: 1;
+  }
+
+ #two {
+   order: 3;
+ }
+
+ #three {
+   order: 4;
+ }
+
+  .pink {
     width: 80%;
   }
 
@@ -154,6 +165,7 @@ div.content {
     order: 2;
     width: 100%;
   }
+
   .red {
     order: 1;
     width: 100%;
