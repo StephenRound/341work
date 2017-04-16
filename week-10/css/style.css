@@ -103,6 +103,7 @@ div.content {
   justify-content: center;
   font-family: sans-serif;
   font-size: 16pt;
+  background-color: red;
 }
 
 #one {
