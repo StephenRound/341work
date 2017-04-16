@@ -98,9 +98,21 @@ div.content {
 .container {
   display: flex;
   flex-direction: column;
-  flex-wrap; wrap;
+  flex-wrap: wrap;
   width: 70%;
   justify-content: center;
   align-items: stretch;
-  align-content: stretch;
+  align-content: center;
+}
+
+#one {
+  order: 1;
+}
+
+#two {
+  order: 2;
+}
+
+#three {
+  order: 3;
 }
