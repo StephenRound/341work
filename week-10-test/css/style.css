@@ -1,0 +1,35 @@
+.container {
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 16pt;
+}
+
+#one {
+  order: 1;
+  align-self: stretch;
+  background-color: red;
+}
+
+#two {
+  order: 2;
+  align-self: center;
+  background-color: blue;
+}
+
+#three {
+  order: 3;
+  align-self: flex-end;
+  background-color: green;
+}
+
+#four {
+  order: 4;
+  align-self: flex-end;
+  background-color: orange;
+}
