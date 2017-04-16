@@ -26,26 +26,32 @@
     background-color: #fffc00;
     order: 4;
 }
-
+.orange {
+    background-color: #ffb000;
+    order: 5;
+}
 
 @media (min-width: 550px) {
     .red {
-        order: 2;
-    }
-    .blue {
         order: 3;
     }
-    .green {
+    .blue {
         order: 4;
+    }
+    .green {
+        order: 5;
     }
     .yellow {
         order: 1;
     }
-  }
+    .orange {
+        order: 2;
+    }
+}
 
 @media (min-width: 700px) {
     .red {
-        order: 4;
+        order: 5;
     }
     .blue {
         order: 1;
@@ -55,5 +61,8 @@
     }
     .yellow {
         order: 2;
+    }
+    .orange {
+        order: 4;
     }
 }
