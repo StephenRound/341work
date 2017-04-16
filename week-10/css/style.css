@@ -109,12 +109,12 @@ div.content {
 
 .pink {
   background-color: lightpink;
-  width: 80%;
+  width: 72%;
 }
 
 .red{
   background-color: darkred;
-  width: 20%;
+  width: 28%;
 }
 
 #one {
@@ -135,4 +135,27 @@ div.content {
 #four {
   order: 4;
   align-self: flex-end;
+}
+
+@media (min-width: 1000px) {
+  .pink {
+    order: 1;
+    width: 80%;
+  }
+
+  .red {
+    order: 2;
+    width: 20%;
+  }
+}
+
+@media (min-width: 550px) {
+  .pink {
+    order: 2;
+    width: 100%;
+  }
+  .red {
+    order: 1;
+    width: 100%;
+  }
 }
