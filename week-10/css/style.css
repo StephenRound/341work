@@ -129,25 +129,14 @@ div.content {
 }
 
 @media (min-width: 1000px) {
-  #one {
-    order: 1;
-  }
-
- #two {
-   order: 3;
- }
-
- #three {
-   order: 4;
- }
-
   .pink {
-    width: 80%;
+    order: 1;
+    width: 67%;
   }
 
   .red {
     order: 2;
-    width: 20%;
+    width: 33%;
   }
 }
 
