@@ -5,6 +5,7 @@
 
 .flex {
     flex: auto;
+    flex-direction: row;
     height: 100px;
     min-width: 250px;
     text-align: center;
@@ -69,7 +70,7 @@
     .green {
         order: 3;
     }
-    
+
     .yellow {
         order: 2;
     }
