@@ -1,0 +1,170 @@
+/* The main styling */
+
+header {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Verdana', sans-serif;
+  text-transform: uppercase;
+  margin: 30px 10%;
+  min-height: 5em;
+  border-bottom-color: rgb(255, 10, 10);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.logo {
+  padding: 8% 0 0;
+  margin: 0;
+}
+
+.header-title {
+  text-align: center;
+  position: relative;
+  font-size: 16pt;
+  color: rgb(255, 10, 10);
+  margin: 0 0 10px;
+  padding: 2px 0 10px;
+  letter-spacing: 3px;
+}
+
+ul {
+  height: 100%;
+  position: static;
+  min-width: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 40px;
+  padding: 0.5em 0;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0.5em 1em;
+  align-content: center;
+  font-size: 1.5em;
+  background-color: white;
+  color: rgb(255, 10, 10);
+  font-family: 'Verdana', sans-serif;
+  text-decoration: none;
+}
+
+li a, .drop-down-button {
+  display: block;
+  color: rgb(255, 100, 100);
+  margin: 0 40px 0;
+}
+
+li a:hover, .drop-down-menu:hover .drop-down-button{
+  color: lightpink;
+}
+
+li.drop-down-menu {
+  display: block;
+}
+
+.drop-down-content {
+  display: none;
+  position: absolute;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: rgb(255, 10, 10);
+  border-right-color: rgb(255, 10, 10);
+  border-left-width: 3px;
+  border-right-width: 3px;
+  margin: 0;
+  background-color: white;
+  z-index: 1;
+  min-width: 4em;
+}
+
+.drop-down-content a {
+  display: block;
+  color: black;
+  padding: 13px 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.drop-down-menu:hover .drop-down-content {
+  display: block;
+}
+
+.drop-down-content:hover .drop-down-content:hover a {
+  color: red;
+  background-color: rgb(255, 170, 172);
+}
+
+#active {
+  color: lightpink;
+}
+
+p.body-title {
+  font-family: 'Verdana', sans-serif;
+  font-size: 1em;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main-content {
+  margin: auto;
+  padding: 10px 10%;
+  float: none;
+  align-content: center;
+}
+
+footer {
+  background-color: white;
+  margin: 30px 10%;
+  padding: 50px 0;
+  min-height: 5em;
+  border-top-color: rgb(255, 10, 10);
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
+@media (max-width: 865px) {
+  .header-title {
+    font-size: 15pt;
+  }
+}
+
+@media (max-width: 585px) {
+  .header-title {
+    font-size: 14pt;
+  }
+  li a {
+    font-size: 1em;
+    padding: 8% 0;
+  }
+}
+
+@media (max-width: 445px) {
+  .header-title {
+    font-size: 12pt;
+  }
+  li a {
+    padding: 4% 0;
+  }
+}
+
+/* portfolio pages */
+
+.content-caption {
+  font-size: 0.9em;
+  font-family: 'Verdana', sans-serif;
+  font-weight: 200;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-family: 'Verdana', sans-serif;
+  text-transform: uppercase;
+}
