@@ -1,14 +1,12 @@
 /* The main styling */
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-family: 'Verdana', sans-serif;
   text-transform: uppercase;
   margin: 30px 10%;
   min-height: 5em;
-  border-bottom-color: rgb(255, 10, 10);
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom:2px solid rgb(255, 10, 10);
 }
 
 .logo {
@@ -70,15 +68,10 @@ li.drop-down-menu {
 .drop-down-content {
   display: none;
   position: absolute;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-left-color: rgb(255, 10, 10);
-  border-right-color: rgb(255, 10, 10);
-  border-left-width: 3px;
-  border-right-width: 3px;
+  border-left: 3px solid rgb(255, 10, 10);
+  border-right: 3px solid rgb(255, 10, 10);
   margin: 0;
   background-color: white;
-  z-index: 1;
   min-width: 4em;
 }
 
@@ -88,10 +81,13 @@ li.drop-down-menu {
   padding: 13px 6px;
   text-decoration: none;
   text-align: center;
+  background-color: inherit;
 }
 
 .drop-down-menu:hover .drop-down-content {
   display: block;
+  animation: dropdown 1s 1;
+  animation-timing-function: ease-in-out;
 }
 
 .drop-down-content:hover .drop-down-content:hover a {
@@ -122,14 +118,15 @@ footer {
   margin: 30px 10%;
   padding: 50px 0;
   min-height: 5em;
-  border-top-color: rgb(255, 10, 10);
-  border-top-style: solid;
-  border-top-width: 2px;
+  border-top: 2px solid rgb(255, 10, 10);
 }
 
-@media (max-width: 865px) {
+@media (min-width: 865px) {
   .header-title {
     font-size: 15pt;
+  }
+  .about-main-content div {
+    flex-direction: row;
   }
 }
 
@@ -150,6 +147,14 @@ footer {
   li a {
     padding: 4% 0;
   }
+  .about-main-content div {
+    flex-direction: column;
+  }
+}
+
+@keyframes dropdown {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
 }
 
 /* portfolio pages */
@@ -172,10 +177,11 @@ footer {
 
 .media-frame {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .media {
@@ -191,4 +197,58 @@ footer {
   font-style: italic;
   text-transform: uppercase;
   font-family: 'Verdana', sans-serif;
+}
+
+/* about */
+
+.about-content {
+  flex-direction: column;
+  width: 40%;
+}
+
+.about-picture {
+  margin-top: 5%;
+}
+
+.about-main-content div {
+  display: flex;
+  padding: 0 20%;
+  width: 60%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+/*contact form*/
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(255, 10, 10);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: rgb(255, 40, 40);
+}
+
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Verdana', sans-serif;
 }
